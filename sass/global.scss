@@ -1,0 +1,28 @@
+/*
+Theme Name: THEMENAME
+Author: Miles
+Author URI: AUTHOR URI
+Version: 1.0
+
+*/
+@import 'partials/reusables';
+@import 'partials/sanitize';
+@import 'partials/colours';
+@import 'partials/fonts';
+@import 'partials/type';
+@import 'partials/helpers';
+@import 'partials/individual_pages';
+
+@import 'components/container';
+@import 'components/module';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/contact';
+@import 'components/labels';
+@import 'components/comments';
+@import 'components/buttons';
+@import 'components/individuals';
+@import 'components/reactions';
+@import 'components/login-register';
+@import 'components/forms';
+@import 'components/nav';
