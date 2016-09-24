@@ -60,3 +60,20 @@
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
+
+.arrow-container{
+  overflow: hidden;
+}
+
+.arrow{
+  width: 105%;
+  margin-left: -2.5%;
+}
+
+#up-arrow{
+  margin-bottom: -3px;
+}
+
+.arrow-path{
+  fill: #fff;
+}

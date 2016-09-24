@@ -1,6 +1,4 @@
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.2 79.9">
-    <style>
-    </style>
+<svg id="dodecahedron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.2 79.9">
     <g id="dec-faces">
       <path id="face-1" class="dec-dark" d="M27.8.3h27.4l13.8 8-27.6 5.3-27.2-5.3z"/>
       <path id="face2" class="dec-med" d="M14.2 8.3L.4 32.2l18.2 21L41.5 40l-.1-26.4z"/>
