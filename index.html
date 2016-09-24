@@ -12,10 +12,11 @@
    <div class="header-wrapper">
      <div class="container">
       <div class="logo"></div>
-       <div class="title">
-         <h1 class="title__main">Miles Tincknell</h1>
-         <div class="title__divider"></div>
-         <h1 class="title__sub">Miles Tincknell</h1>
+       <div class="title-wrapper">
+         <h1 class="title title--main">Miles Tincknell</h1>
+         <div class="title__divider">
+         </div>
+         <h2 class="title title--sub">Web Developer</h2>
        </div>
      </div>
    </div>
@@ -23,19 +24,86 @@
  <main>
   <div class="wrapper">
     <div class="container">
-      <section class="introduction"></section>
-      <section class="icons"></section>
-      <section class="contact"></section>
+      <section class="introduction">
+        <div class="dodecahedron-container">
+          <div class="dodecahedron">
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="-10 -5 103.2 99.9">
+                <g id="dec-faces">
+                  <path id="face-1" class="dec-face dec-dark" d="M27.8.3h27.4l13.8 8-27.6 5.3-27.2-5.3z"/>
+                  <path id="face-2" class="dec-face dec-med" d="M14.2 8.3L.4 32.2l18.2 21L41.5 40l-.1-26.4z"/>
+                  <path id="face-3" class="dec-face dec-med" d="M69 8.3L82.7 32 64.3 53.2 41.5 40l-.1-26.4z"/>
+                  <path id="face-4" class="dec-face dec-light" d="M41.5 40L18.6 53.2l9.2 26.4h27.4l9.1-26.4z"/>
+                  <path id="face-5" class="dec-face dec-med" d="M82.7 32v15.8l-13.8 24-13.7 7.8 9.1-26.4z"/>
+                  <path id="face-6" class="dec-face dec-med" d="M.4 32.2v15.7L14 71.6l13.8 8-9.2-26.4z"/>
+                </g>
+            </svg>
+
+          </div>
+        </div>
+        <div class="dotted-line">
+          <svg id="dotted-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.6 79.9">
+              <path class="st0" d="M.4 1.4h1.5"/>
+              <path class="st1" d="M4.9 1.7c19.2 2.2 34 18.5 34 38.3 0 20.3-15.7 36.9-35.5 38.4"/>
+              <path class="st0" d="M1.9 78.5H.4"/>
+          </svg>
+        </div>
+        <div class="introtext-wrapper">
+          <div class="introtext-container">
+            <div class="circle"></div>
+            <p class="intro-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quia eligendi a placeat, totam aut expedita laborum, ipsa maxime, voluptatibus earum! Labore eveniet, asperiores blanditiis doloremque perferendis vitae temporibus, animi.</p>
+          </div>
+        </div>
+      </section>
+      <section class="icons">
+        <div class="icon-group">
+          <div class="icon-holder">
+            <div class="icon">
+              <span class="icon__text">HTML</span>
+            </div>
+          </div>
+          <div class="icon-holder">
+            <div class="icon">
+              <span class="icon__text">CSS</span>
+            </div>
+          </div>
+          <div class="icon-holder">
+            <div class="icon">
+              <span class="icon__text">JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="icon-group">
+          <div class="icon-holder">
+            <div class="icon">
+              <span class="icon__text">Lab</span>
+            </div>
+          </div>
+          <div class="icon-holder">
+            <div class="icon">
+              <span class="icon__text">Projects</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="name">
+          <label for="email">Email</label>
+          <input type="email" name="email">
+          <textarea name="" id="" cols="30" rows="10">Write a message...</textarea>
+        </form>
+      </section>
     </div>
   </div>
  </main>
  <footer>
-<div class="wrapper">
-  <div class="container">
-    <a href="http://www.twitter.com/milestincknell" class="footer-link"></a>
-    <a href="http://www.github.com/abnw" class="footer-link"></a>
-    <a href="mailto:miles.tincknell@gmail.com" class="footer-link">Get in touch</a>
-  </div>
+  <div class="wrapper">
+    <div class="container">
+      <a href="http://www.twitter.com/milestincknell" class="footer-link"></a>
+      <a href="http://www.github.com/abnw" class="footer-link"></a>
+      <a href="mailto:miles.tincknell@gmail.com" class="footer-link">Get in touch</a>
+    </div>
 </div>
  </footer>
 </body>

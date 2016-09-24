@@ -13,16 +13,8 @@ Version: 1.0
 @import 'partials/helpers';
 @import 'partials/individual_pages';
 
-@import 'components/container';
-@import 'components/module';
+@import 'components/svg';
+@import 'components/main-styles';
+@import 'components/modules';
 @import 'components/header';
-@import 'components/footer';
-@import 'components/contact';
-@import 'components/labels';
-@import 'components/comments';
-@import 'components/buttons';
-@import 'components/individuals';
-@import 'components/reactions';
-@import 'components/login-register';
-@import 'components/forms';
-@import 'components/nav';
+@import 'components/icons';

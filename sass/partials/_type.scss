@@ -1,0 +1,16 @@
+*{
+  color: white;
+}
+
+p{
+
+  .introtext-container &{
+    &:first-of-type{
+      // padding-top: 15px;
+    }
+  }
+  &.intro-para{
+    line-height: 250%;
+    max-width: 700px;
+  }
+}

@@ -1,0 +1,13 @@
+.header-wrapper{
+  background-color: white;
+}
+
+.title-wrapper{
+  text-align: center;
+}
+
+.title{
+  color: black;
+  text-align: center;
+  @include font-size(48);
+}

@@ -1,5 +1,5 @@
 {
-  "name": "JCA",
+  "name": "Portfolio",
   "version": "0.1.0",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
@@ -13,6 +13,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wearemiles/tilt-website.git"
+    "url": ""
   }
 }

@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 				]
 			  },
 			  dist: {
-				src: 'css/dist/*.css'
+				src: 'css/*.css'
 			  }
 			}
 	});
