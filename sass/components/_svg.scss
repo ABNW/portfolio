@@ -37,26 +37,27 @@
   transform-origin: 50% 50%;
   &:hover{
     opacity: 1;
+    // animation: opacityAnim 0.8s ease;
   }
 }
 
 .dec-face--dark {
-    opacity: 0.7;
-    fill: #C6C6C6;
+    opacity: 0.6;
+    fill: #fff;
 }
 .dec-face--med {
     opacity: 0.8;
-    fill: #DADADA;
+    fill: #fff;
 }
 
 .dec-face--dark-med{
-  fill: #B2B2B2;
-  opacity: 0.8;
+  fill: #fff;
+  opacity: 0.7;
 }
 
 .dec-face--light {
     opacity: 0.90;
-    fill: #DADADA;
+    fill: #fff;
 }
 
 .arrow-container{
@@ -89,4 +90,37 @@
 
 .logo-line--thick{
   stroke-width: 1;
+}
+
+@keyframes opacityAnim{
+  0%{
+    opacity: inherit;
+  }
+
+  10%{
+    opacity: 0.2;
+  }
+
+  15%{
+    opacity: 0.3
+  }
+
+  20%{
+    opacity: 0.9
+  }
+  23%{
+    opacity: 1;
+  }
+  35%{
+    opacity: 0.8
+  }
+  40%{
+    opacity: 0.6
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
 }
