@@ -29,6 +29,10 @@
 }
 
 .dec-face{
+  stroke: #CCCBCB;
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
   transition: all 0.5s ease;
   transform-origin: 50% 50%;
   &:hover{
@@ -36,29 +40,23 @@
   }
 }
 
-.dec-dark {
+.dec-face--dark {
     opacity: 0.7;
-    fill: #FFFFFF;
-    stroke: #CCCBCB;
-    stroke-width: 0.5;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
+    fill: #C6C6C6;
 }
-.dec-med {
+.dec-face--med {
     opacity: 0.8;
-    fill: #FFFFFF;
-    stroke: #CCCBCB;
-    stroke-width: 0.5;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
+    fill: #DADADA;
 }
-.dec-light {
-    opacity: 0.85;
-    fill: #FFFFFF;
-    stroke: #CCCBCB;
-    stroke-width: 0.5;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
+
+.dec-face--dark-med{
+  fill: #B2B2B2;
+  opacity: 0.8;
+}
+
+.dec-face--light {
+    opacity: 0.90;
+    fill: #DADADA;
 }
 
 .arrow-container{
