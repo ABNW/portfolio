@@ -93,11 +93,19 @@
       <section class="contact">
         <div class="contact-container">
           <form action="">
-            <label for="name">Name</label>
-            <input type="text" name="name">
-            <label for="email">Email</label>
-            <input type="email" name="email">
-            <textarea name="" id="" cols="30" rows="10">Write a message...</textarea>
+            <div class="input-holder input-holder--name">
+              <input type="text" name="name" required="">
+              <span></span>
+              <label for="name">Name</label>
+            </div>
+            <div class="input-holder input-holder--email">
+              <input type="email" name="email" required="">
+              <span></span>
+              <label for="email">Email</label>
+            </div>
+            <div class="input-holder input-holder--message">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Write a message..." required=""></textarea>
+            </div>
           </form>
         </div>
       </section>
