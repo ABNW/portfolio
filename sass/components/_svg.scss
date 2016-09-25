@@ -75,3 +75,18 @@
 .arrow-path{
   fill: #fff;
 }
+
+.logo-line{
+  fill: none;
+  stroke: #1E1E1C;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.logo-line--thin{
+  stroke-width: 0.5;
+}
+
+.logo-line--thick{
+  stroke-width: 1;
+}

@@ -1,13 +1,35 @@
 .header-wrapper{
   background-color: white;
+  position: relative;
+}
+
+.logo{
+  width: 60px;
+  max-width: 80px;
+  position: absolute;
+  top: 21px;
+  left: 34px;
 }
 
 .title-wrapper{
-  text-align: center;
+  display: block;
+  margin: 0px auto;
 }
 
 .title{
   color: black;
   text-align: center;
   @include font-size(48);
+  display: block;
+}
+
+.title__divider{
+}
+
+.title--main{
+  padding-top: 25px;
+}
+
+.title--sub{
+  @include font-size(34);
 }

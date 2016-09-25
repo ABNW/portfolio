@@ -60,6 +60,7 @@ textarea:focus, input:focus{
     border: 2px solid white;
     position: relative;
     z-index: 2;
+    padding: 10px;
   }
 
   input:hover + span, input:focus + span{
